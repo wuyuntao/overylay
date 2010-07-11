@@ -1,0 +1,8 @@
+DIST tr-2.0.epsilon.zip 17160643 RMD160 cb9c84606b75480b564269cb141bcc47c0492e7c SHA1 5d7bb6cc645529edf1b757b8885c3edac264b715 SHA256 3c8ddf37c0b8d840f078c12ecca441565a43377f21126317e64013c21d60486d
+EBUILD thinking-rock-2.0_pre2.ebuild 869 RMD160 61d53d9d80ccb5c28d8933b7086eded4492bb076 SHA1 28f1ca8f1ee772cff0ae749c4ce548dcccc2a218 SHA256 58c167347555cdc6ddb4af7ee28a099a6beefaa6604f1ed82f133aadd8bd73c2
+MD5 e66695a7622357c1ce4d7926cac8380f thinking-rock-2.0_pre2.ebuild 869
+RMD160 61d53d9d80ccb5c28d8933b7086eded4492bb076 thinking-rock-2.0_pre2.ebuild 869
+SHA256 58c167347555cdc6ddb4af7ee28a099a6beefaa6604f1ed82f133aadd8bd73c2 thinking-rock-2.0_pre2.ebuild 869
+MD5 867ea6e84d4b886d35891d4e6f4f6583 files/digest-thinking-rock-2.0_pre2 241
+RMD160 191e49fdbc35550abc8f4c630aa9214c8e935ab8 files/digest-thinking-rock-2.0_pre2 241
+SHA256 1df4d43a241adfced8e3be4d3d62a216c8cd13910332220f06c907584b18707b files/digest-thinking-rock-2.0_pre2 241
