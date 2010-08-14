@@ -5,11 +5,12 @@
 EAPI="2"
 SUPPORT_PYTHON_ABIS="1"
 
-inherit subversion distutils
+inherit mercurial distutils
 
 DESCRIPTION="This library provides a pure python interface for the Twitter API"
 HOMEPAGE="http://code.google.com/p/python-twitter/"
-ESVN_REPO_URI="http://python-twitter.googlecode.com/svn/trunk"
+EHG_REPO_URI="https://python-twitter.googlecode.com/hg/${PN}"
+EHG_REVISION="default"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -23,6 +24,13 @@ RESTRICT_PYTHON_ABIS="3.*"
 
 DOCS="CHANGES README"
 PYTHON_MODNAME="twitter.py"
+
+S="${WORKDIR}/${PN}"
+
+src_unpack() {
+	mercurial_src_unpack
+	cd "${S}"
+}
 
 src_prepare() {
 	distutils_src_prepare

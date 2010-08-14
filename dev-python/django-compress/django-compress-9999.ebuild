@@ -19,7 +19,7 @@ SLOT="0"
 KEYWORDS="~x86"
 IUSE=""
 
-DEPEND=""
+DEPEND="dev-python/django"
 RDEPEND="${DEPEND}"
 RESTRICT_PYTHON_ABIS="3.*"
 
