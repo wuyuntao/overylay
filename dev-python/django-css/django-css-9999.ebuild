@@ -19,9 +19,8 @@ SLOT="0"
 KEYWORDS="~x86"
 IUSE=""
 
-DEPEND="dev-python/django
-	dev-python/django-compressor"
+DEPEND="dev-python/django"
 RDEPEND="${DEPEND}"
 RESTRICT_PYTHON_ABIS="3.*"
 
-PYTHON_MODNAME="css"
+PYTHON_MODNAME="compressor"
