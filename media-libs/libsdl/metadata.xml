@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <herd>games</herd>
+  <longdescription>
+Fix sound issue of app-emulation/virtualbox-bin
+
+References:
+http://bugs.gentoo.org/show_bug.cgi?id=310793
+http://forums.gentoo.org/viewtopic-t-739568-start-50.html
+</longdescription>
+  <use>
+	<flag name="audio">Control audio support (disable at your own risk)</flag>
+	<flag name="joystick">Control joystick support (disable at your own risk)</flag>
+	<flag name="ps3">Build the PS3 video driver</flag>
+	<flag name="tslib">Build with tslib support for touchscreen devices</flag>
+	<flag name="video">Control video support (disable at your own risk)</flag>
+  </use>
+</pkgmetadata>
