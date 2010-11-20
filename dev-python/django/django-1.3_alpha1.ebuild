@@ -40,7 +40,6 @@ pkg_setup() {
 
 src_prepare() {
 	distutils_src_prepare
-	epatch "${FILESDIR}/${P}-fix_tests.patch"
 }
 
 src_compile() {
